@@ -31,4 +31,25 @@ print(myStr.find("h"))
 print(len(myStr))
 print(myStr.__len__())
 
+#index(), indice de la letras o palabras
 
+print(myStr.index("D"))
+
+#isnumeric(), funcion indica si la variable es un numero True o si no es False.
+print(myStr.isnumeric())
+
+#isalpha(), funcion indica si la varibale es alfanumerico True o si no es False.
+
+print(myStr.isdecimal())
+
+#[index], imprimir el valor seleccionado segun el index.
+
+print(myStr[4])
+print(myStr[-2])
+
+
+#Concatenation
+userName ="Daniel1808"
+print("Mi nombre de usuario es: "+userName)
+print(f"Mi nombre de usuario es: {userName}")
+print("Mi nombre de usuario es: {0}".format(userName))
